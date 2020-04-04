@@ -74,3 +74,7 @@ def corr_plot(ax, corr, labels, sub=False, plot_title="", cmap="coolwarm",
     cbar.set_ticks([-1.0, -0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 1.0])
     cbar.ax.set_yticklabels(cbar.ax.get_yticks(), fontproperties=TICKS)
     cbar.ax.set_title('Correlation', fontproperties=AXIS)
+
+
+if __name__ == "__main__":
+    pass
